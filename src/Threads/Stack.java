@@ -1,3 +1,5 @@
+package Threads;
+
 import java.util.Arrays;
 
 public class Stack {
@@ -39,7 +41,7 @@ public class Stack {
 
     @Override
     public String toString() {
-        return "Stack{" +
+        return "Threads.Stack{" +
                 "stackTop=" + stackTop +
                 ", stack=" + Arrays.toString(stack) +
                 '}';
